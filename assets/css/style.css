@@ -4,8 +4,9 @@
 
 :root {
     --primary-color: #0A1128;
-    --light-gray-color: #EEE;
-    --light-color: #fff;
+    --light-gray-color: #EEEEEE;
+    --light-color: #FFFFFF;
+    --secondary-color: #dc143c;
     --gap: 3rem;
 }
 
@@ -69,7 +70,7 @@ a {
 }
 
 .main-content {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap);
 }
@@ -79,13 +80,12 @@ a {
 }
 
 .menu {
-    background: var(--light-color);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 1px solid var(--light-gray-color);
+    border-bottom: 0.1 solid var(--light-gray-color);
 }
 
 .menu-content {
@@ -125,7 +125,7 @@ a {
     left: 50%;
     width: 0;
     height: 0.2rem;
-    background: crimson; 
+    background: var(--secondary-color);
     transition: all 300ms ease-in-out;
   }
   
